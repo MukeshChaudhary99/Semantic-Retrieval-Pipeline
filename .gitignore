@@ -11,7 +11,7 @@
 .env
 
 # Alembic migration files — keep the folder via .gitkeep so `alembic upgrade head` works
-alembic/versions/*.py
+# alembic/versions/*.py
 
 # Logs
 
