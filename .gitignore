@@ -1,0 +1,31 @@
+# Python cache / compiled files
+
+**pycache**/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environment
+.venv/
+
+.env
+
+# Alembic migration files — keep the folder via .gitkeep so `alembic upgrade head` works
+alembic/versions/*.py
+
+# Logs
+
+*.log
+logs/
+
+# Local data (Qdrant now runs as its own container — see docker-compose.yml)
+qdrant_storage/
+uploads/
+extracted_images/
+rag.db
+
+.vscode/
+app/core/ssl_compat.py
+app/core/tls.py
+app/core/certs/ca_bundle.pem
+app/core/certs/sophos_root.crt
